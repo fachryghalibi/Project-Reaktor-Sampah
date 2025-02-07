@@ -765,16 +765,6 @@ footer {
         padding: 0 1rem; 
     }
 
-    .challenges-grid,
-    .methods-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .challenge-card,
-    .method-card {
-        margin-bottom: 1rem;
-    }
-
     .nav-links {
         display: none;
         position: fixed;
