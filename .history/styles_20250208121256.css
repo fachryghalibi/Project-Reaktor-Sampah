@@ -197,7 +197,7 @@ html, body {
                 rgba(0,0,0,0.2) 60%,
                 rgba(0,0,0,0) 100%),
                 url('model/reaktor.jpeg');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
@@ -768,10 +768,6 @@ footer {
 /* Responsive Design */
 /* Responsive Design (continued) */
 @media (max-width: 968px) {
-    .hero{
-        background-size: cover;
-    }
-
     .nav-container {
         padding: 0 1rem; 
     }
@@ -911,12 +907,6 @@ footer {
 @media screen and (max-width: 480px) {
     .team-grid {
         grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 402px){
-    .hero-content p {
-        font-size: 1rem;
     }
 }
 

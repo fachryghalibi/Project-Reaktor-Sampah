@@ -768,10 +768,6 @@ footer {
 /* Responsive Design */
 /* Responsive Design (continued) */
 @media (max-width: 968px) {
-    .hero{
-        background-size: cover;
-    }
-
     .nav-container {
         padding: 0 1rem; 
     }
@@ -888,10 +884,6 @@ footer {
     .footer-section:first-child {
         max-width: 100%;
     }
-
-    .team-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 @media (max-width: 576px) {
@@ -905,18 +897,6 @@ footer {
 
     .section-title h2 {
         font-size: 2rem;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .team-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 402px){
-    .hero-content p {
-        font-size: 1rem;
     }
 }
 

@@ -914,9 +914,10 @@ footer {
     }
 }
 
-@media (max-width: 402px){
+@media (max-width: 401px){
     .hero-content p {
         font-size: 1rem;
+        margin-bottom: 2rem;
     }
 }
 
