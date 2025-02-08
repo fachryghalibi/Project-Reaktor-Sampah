@@ -197,7 +197,7 @@ html, body {
                 rgba(0,0,0,0.2) 60%,
                 rgba(0,0,0,0) 100%),
                 url('model/reaktor.jpeg');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
